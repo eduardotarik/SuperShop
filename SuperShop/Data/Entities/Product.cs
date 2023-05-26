@@ -1,8 +1,9 @@
-﻿namespace SuperShop.Data.Entities
-{
-    using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-    public class Product
+namespace SuperShop.Data.Entities
+{
+
+    public class Product : IEntity
     {
         public int Id { get; set; }
 
