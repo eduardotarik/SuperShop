@@ -12,6 +12,7 @@ builder.Services.AddDbContext<DataContext>(cfg =>
 });
 
 builder.Services.AddTransient<SeedDb>();
+builder.Services.AddScoped<IRepository, Repository>();
 
 var app = builder.Build();
 

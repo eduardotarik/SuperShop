@@ -33,7 +33,7 @@
             {
                 Name = name,
                 Price = _random.Next(1000),
-                ImageUrl = "image",
+                ImageUrl = "N/A",
                 IsAvailable = true,
                 Stock = _random.Next(100)
             });
